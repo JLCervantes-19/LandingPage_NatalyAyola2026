@@ -1,0 +1,56 @@
+# Dependencias
+node_modules/
+package-lock.json
+yarn.lock
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+*.log
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Vercel
+.vercel
+
+# Temporales
+*.tmp
+*.temp
+
+# Archivos sensibles y de configuración
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*.p12
+*.pfx
+config.local.js
+secrets.json
+
+# Backups
+*.bak
+*.backup
+*~
+
+# Archivos de caché
+.cache/
+*.cache
+.parcel-cache/
+
+# Logs detallados
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# Archivos de prueba
+coverage/
+.nyc_output/
+*.lcov
