@@ -39,7 +39,7 @@ echo "📁 Archivos principales:"
 check_file "index.html"
 check_file "vercel.json"
 check_file "README.md"
-check_file "INICIO-RAPIDO.md"
+check_file "DOCUMENTACION-COMPLETA.md"
 echo ""
 
 echo "📁 Carpetas:"
