@@ -1,4 +1,4 @@
-# 🌟 Nataly Ayola - Media Kit 2026
+# 🌟 Nataly Ayola 2026
 
 > **Landing Page Premium con Seguridad Implementada**
 
