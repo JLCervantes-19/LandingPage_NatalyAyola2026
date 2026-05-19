@@ -596,5 +596,3 @@ if (document.readyState === 'loading') {
   init();
 }
 
-// Refuerzo: scroll al top cuando todo (imágenes, etc.) haya cargado
-window.addEventListener('load', () => window.scrollTo(0, 0));
