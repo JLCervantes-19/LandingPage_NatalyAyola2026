@@ -571,7 +571,6 @@ function initHeroTextEntrance() {
    INIT — Punto de entrada principal
    ============================================================ */
 function init() {
-  if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
   window.scrollTo(0, 0);
 
   initScrollProgress();
@@ -596,3 +595,6 @@ if (document.readyState === 'loading') {
 } else {
   init();
 }
+
+// Refuerzo: scroll al top cuando todo (imágenes, etc.) haya cargado
+window.addEventListener('load', () => window.scrollTo(0, 0));
