@@ -248,7 +248,7 @@ function initCounters() {
         const cfg = stats.find(s => s.id === entry.target.id);
         if (cfg) {
           entry.target.dataset.animated = 'true';
-          animateCounter(entry.target, cfg.end, 900, cfg.suffix);
+          animateCounter(entry.target, cfg.end, 550, cfg.suffix);
         }
         observer.unobserve(entry.target);
       }
