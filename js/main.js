@@ -596,3 +596,10 @@ if (document.readyState === 'loading') {
   init();
 }
 
+// Si el browser restaura la página desde bfcache (pestaña en segundo plano,
+// botón atrás, etc.) forzar un reload limpio para que todas las animaciones
+// y el carousel arranquen desde cero.
+window.addEventListener('pageshow', function (e) {
+  if (e.persisted) window.location.reload();
+});
+
