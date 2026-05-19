@@ -571,6 +571,9 @@ function initHeroTextEntrance() {
    INIT — Punto de entrada principal
    ============================================================ */
 function init() {
+  if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+  window.scrollTo(0, 0);
+
   initScrollProgress();
   initHeader();
   initMobileMenu();
