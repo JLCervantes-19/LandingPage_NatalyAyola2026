@@ -114,6 +114,12 @@ img {
   display: block;
 }
 
+a,
+button {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -1153,6 +1159,8 @@ ul {
   gap: 20px;
   cursor: pointer;
   text-decoration: none;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .social-icon-wrap {
@@ -1580,6 +1588,8 @@ ul {
   transition:
     transform 0.25s var(--ease-spring),
     box-shadow 0.3s ease;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
 }
 .whatsapp-btn:hover {
   transform: scale(1.12);
